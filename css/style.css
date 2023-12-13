@@ -1,0 +1,359 @@
+html{
+    scroll-behavior: smooth;
+}
+/*Cabeçalho*/
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6vw;
+    align-items: center;
+}
+.logo{
+    margin-left: 4vw;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 1.5vw;
+}
+header a:hover{
+    background-color: rgb(61, 61, 61);
+    transition: 0.7s;
+}
+.imagem-grande{
+    width: 100%;
+    height: 45vw;
+}
+#biografiaheader {
+    width: 90%;
+    padding: 0 0 0 5vw;
+}
+/*Cards*/
+#cards{
+    font-size: 1vw;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-cards{
+    height: 33vw;
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.info-cards p{
+    text-align: justify;
+    padding: 1vw;
+}
+#cards h2{
+    font-size: 1.6vw;
+    font-style: bold;
+}
+#cards p{
+    font-size: 1vw;
+}
+/*O Baile*/
+#o-baile{
+    text-align: justify;
+    font-size: 1.3vw;
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2vw;
+}
+#o-baile p{
+    padding: 4vw;
+}
+#o-baile img{
+    width: 45vw;
+    height: 40vw;
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px #b7b7be;
+    flex-grow: 1;
+    margin-left: 1vw;
+}
+/*Conheça Obras*/
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    font-size: 1.3vw;
+}
+#container-imagens{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+    min-height: 77vh;
+}
+.itens-container{
+    width: 450px;
+    height: 350px;
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 5px #b7b7be;
+    flex-grow: 1;
+}
+.itens-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Gustave*/
+#textoimagemgustave {
+    display: flex;
+}
+#textoimagemgustave img {
+    width: 40vw;
+    height: 25vw;
+}
+#textoimagemgustave p {
+    font-size: 2vw;
+    text-align: justify;
+    padding: 0 4.5vw 0 4.5vw; 
+}
+#textogustavecontinua {
+    font-size: 2vw;
+    text-align: justify;
+    padding: 0 4.5vw 0 4.5vw; 
+}
+#h1gustave {
+    font-size: 2vw;
+    margin-top: 4vw;
+    margin-left: 2vw;
+}
+/*William*/
+#textoimagemwilliam {
+    display: flex;
+}
+#textoimagemwilliam p {
+    font-size: 2vw;
+    text-align: justify;
+    padding: 0 4.5vw 0 4.5vw; 
+}
+#textoimagemwilliam img {
+    width: 40vw;
+    height: 25vw;
+    padding: 2vw;
+}
+#h2william {
+    font-size: 2vw;
+    margin-top: 4vw;
+    margin-left: 2vw;
+}
+/*Criadores*/
+#section-criadores{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+.criador{
+    width: 14vw;
+    height: 6vw;
+    border-radius: 35px;
+    background: #D9D9D9; 
+    padding: 1%;
+}
+/*Contato*/
+form{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+form input, textarea{
+    width: 100%;
+    padding: 0.7vw 0.5vh;
+    margin-bottom: 0.5vw;
+    outline: none;
+    border: 0.1vw solid #3c3c3c;
+}
+#contato-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#contato-btn button{
+    flex-basis: 48%;
+    padding: 1vw;
+}
+#contato-conosco {
+    display: flex;
+    justify-content: center;
+    border-radius: 2vw;
+    background: #b7b7be;
+    width: 40vw;
+    height: 55vh;
+    margin-top: 0.2vw;
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*página-contexto*/
+
+#img-contexto{
+    padding: 1vw;
+    width: 100%;
+}
+.titulo-contexto{
+    font-size: 2vw;
+    padding: 1vw 3vh;
+}
+.texto-contexto{
+    font-size: 2vw;
+    text-align: justify;
+    padding: 0 4.5vw 0 4.5vw;
+}.contexto{
+    display: flex;
+}
+/*Obra*/
+#cabecalho-obra {
+    width: 100%;
+    padding: 1vw;
+}
+.p-obra {
+    font-size: 2vw;
+    text-align: justify;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+}
+.titulo-obra {
+    font-size: 2vw;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+}
+#principais-obras {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+#principais-obras img {
+    width: 22vw;
+    height: 32vw;
+}
+#principais-obras div {
+    display: flex;
+    flex-direction: column;
+}
+/*media querie*/
+
+@media all and (max-width: 400px){
+    header{
+        width: 100%;
+        height: 10vh; 
+    }
+    header img{
+        width: 10vw;
+        height: 10vh;
+    }
+    #cards img{
+       width: 10vw;
+       height: 10vh;
+    }
+    .itens-container{
+       width: 20vw;
+       height: 20vh;
+    }
+    h3{
+        font-size: 2.5vw;
+    }
+    .criador{
+        width: 20vw;
+        height: 15vh;
+    }
+    .criador p{
+        font-size: 2.2vw;
+
+    }
+    h4{
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5vh;
+    }
+    #contato-btn{
+        width: 40vw;
+        height: 3.5vh;
+    }
+    #contato-btn button{
+        font-size: 2vw;
+    }
+    form input, textarea{
+        width: 60vw;
+        font-size: 2vw;
+    }
+    #contato-conosco{
+        width: 65vw;
+        height: 35vh;
+    }
+    img{
+        width: 30vw;
+        height: 20vh;
+    }
+}
+@media all and (max-width: 800px){
+    header{
+        width: 100%;
+        height: 10vh; 
+    }
+    header img{
+        width: 10vw;
+        height: 10vh;
+    }
+    #cards img{
+       width: 12vw;
+       height: 22vh;
+    }
+    #cards p{
+        font-size: 1.2vw;
+    }
+    .itens-container{
+       width: 25vw;
+       height: 25vh;
+    }
+    h3{
+        font-size: 2.5vw;
+    }
+    .criador{
+        width: 22vw;
+        height: 15vh;
+    }
+    .criador p{
+        font-size: 1.5vw;
+        display: flex;
+        justify-content: center;
+    }
+    h4{
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5vh;
+    }
+    #contato-btn{
+        width: 40vw;
+        height: 5vh;
+    }
+    #contato-btn button{
+        font-size: 1.5vw;
+    }
+    form input, textarea{
+        width: 60vw;
+        font-size: 1.5vw;
+    }
+    #contato-conosco{
+        width: 65vw;
+        height: 55vh;
+    }
+    img{
+        width: 40vw;
+        height: 30vh;
+    }
+}
